@@ -1,9 +1,9 @@
 <?php
 
-namespace MadWeb\Enum\Test;
+namespace Bogordesain\Enum\Test;
 
 use InvalidArgumentException;
-use MadWeb\Enum\Rules\EnumRule;
+use Bogordesain\Enum\Rules\EnumRule;
 
 class EnumValidationRuleTest extends TestCase
 {

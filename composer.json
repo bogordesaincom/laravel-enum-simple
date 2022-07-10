@@ -1,19 +1,19 @@
 {
-    "name": "mad-web/laravel-enum",
-    "description": "Elegant Enum implementation for Laravel. With make:enum command, ability to casting for Eloquent models and labels translations via lang files.",
+    "name": "bogordesaincom/laravel-enum-simple",
+    "description": "Elegant Enum implementation for Laravel. With make:enum command, ability to casting for Eloquent models and labels translations via lang files. Forked from ",
     "type": "library",
     "keywords": [
-        "mad-web",
+        "bogordesaincom",
         "enum",
         "laravel-enum"
     ],
-    "homepage": "https://github.com/mad-web/laravel-enum",
+    "homepage": "https://github.com/bogordesaincom/laravel-enum-simple",
     "license": "MIT",
     "authors": [
         {
-            "name": "mad-web",
-            "email": "madweb.dev@gmail.com",
-            "homepage": "https://github.com/mad-web",
+            "name": "bogordesaincom",
+            "email": "nakamura.agatha@gmail.com",
+            "homepage": "https://github.com/bogordesaincom",
             "role": "Developer"
         }
     ],
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MadWeb\\Enum\\": "src"
+            "Bogordesain\\Enum\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MadWeb\\Enum\\Test\\": "tests"
+            "Bogordesain\\Enum\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MadWeb\\Enum\\EnumServiceProvider"
+                "Bogordesain\\Enum\\EnumServiceProvider"
             ]
         }
     }

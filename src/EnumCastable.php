@@ -1,9 +1,9 @@
 <?php
 
-namespace MadWeb\Enum;
+namespace Bogordesain\Enum;
 
 /**
- * @mixin \MadWeb\Enum\Enum
+ * @mixin \Bogordesain\Enum\Enum
  * @internal Uses for custom casting implementation
  */
 trait EnumCastable
