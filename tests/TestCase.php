@@ -15,9 +15,7 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
-     * Define environment setup.
-     *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param $app
      * @return void
      */
     protected function getEnvironmentSetUp($app)
@@ -32,8 +30,8 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
-     * @param \Illuminate\Foundation\Application $app
-     * @return array
+     * @param $app
+     * @return string[]
      */
     protected function getPackageProviders($app)
     {
@@ -41,8 +39,8 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
-     * @param \Illuminate\Foundation\Application $app
-     * @return array
+     * @param $app
+     * @return array|string[]
      */
     protected function getPackageAliases($app)
     {
@@ -50,9 +48,8 @@ class TestCase extends OrchestraTestCase
     }
 
     /**
-     * Set up the database.
-     *
-     * @param \Illuminate\Foundation\Application $app
+     * @param $app
+     * @return void
      */
     protected function setUpDatabase($app)
     {
