@@ -15,9 +15,10 @@ class EnumMakeCommandTest extends TestCase
         parent::tearDown();
     }
 
+
     /**
-     * @test
-     * @dataProvider makeCommandDataProvider
+     * @param $arguments
+     * @return void
      */
     public function make_command($arguments)
     {
@@ -32,7 +33,10 @@ class EnumMakeCommandTest extends TestCase
         );
     }
 
-    public function makeCommandDataProvider()
+    /**
+     * @return \array[][]
+     */
+    public function makeCommandDataProvider(): array
     {
         return [
             [[

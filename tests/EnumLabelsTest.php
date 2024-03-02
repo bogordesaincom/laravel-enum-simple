@@ -4,6 +4,9 @@ namespace Bogordesain\Enum\Test;
 
 class EnumLabelsTest extends TestCase
 {
+    /**
+     * @return void
+     */
     protected function setUp(): void
     {
         parent::setUp();
