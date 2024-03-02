@@ -20,8 +20,10 @@ class EnumLabelsTest extends TestCase
         $this->assertEquals(PostStatusEnum::PENDING()->label(), 'Pending Label');
     }
 
-    /** @test */
-    public function get_label_without_template()
+    /**
+     * @return void
+     */
+    public function get_label_without_template(): void
     {
         $this->assertEquals(PostStatusEnum::DRAFT()->label(), 'draft');
     }
